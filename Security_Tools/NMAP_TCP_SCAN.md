@@ -38,9 +38,14 @@ Two Linux virtual machines, one representing the attacker, one representing the 
 
 Attacker VM will use NMAP
 TARGET VM (REMEMBER THIS) We will use Port 22 and 80 | SSH, 
-# $\color{#FF69B4}{\text{APACHE}}$
+# $\color{#FF69B4}{\text{...AND APACHE}}$
 Remember, Port 80 is HTTP
 Port 22 is SSH
+
+NMAP IS THE SECURITY TOOL USED TO SCAN THE TARGET 
+
+Adapter 1 — NAT	Allows the VM to access the internet to download software.
+Adapter 2 — Host-only	Allows communication between your lab machines and physical host.
 
 
 

@@ -63,5 +63,16 @@ Adapter 1 — NAT	Allows the VM to access the internet to download software.
 Adapter 2 — Host-only	Allows communication between your lab machines and physical host.
 
 
+-br	Displays information in a brief format
+
+
+### $\color Interface	Purpose{#FF69B4}{\text{Target machine prep done}}$
+
+lo	Loopback interface.
+enp0s3	Often the first virtual Ethernet adapter (NAT).
+enp0s8	Often the second virtual Ethernet adapter (host-only).
+/24	The first 24 bits identify the network; equivalent to subnet mask 255.255.255.0.
+UP	The network interface is enabled.
+
 
 

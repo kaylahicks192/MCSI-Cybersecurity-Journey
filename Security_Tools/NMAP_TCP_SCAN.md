@@ -1,0 +1,28 @@
+# $\color{#FF69B4}{\text{NMAP TCP SCAN TEST}}$
+
+Hello! This is my first official documentation of one of the Mosse Cybersecurity Institute's activities. Although it is not my first time completing these assignments, I've made a Github dedicated to these projects to prove my participation. 
+
+Today, we are doing the Perform a TCP port scan using Nmap activity. 
+
+The requirements are as follows:  Important
+Research what flags do before using them
+Nmap will return "open|filtered" when it is unable to determine whether a port is open or filtered. This exercise requires you to identify "open" ports!
+2. Prepare the target machine
+Start a Linux virtual machine that will serve as the target for the TCP port scan
+Start the "apache2" service and the "ssh" service on the target virtual machine
+2.1. Validation
+Verify that the services are running on the default ports (22 and 80)
+Validate that you can detect the "open" port(s) using Nmap and the loopback address (127.0.0.1)
+3. Perform TCP Scans
+Start another Linux virtual machine with Nmap installed, which will act as the attacker machine
+Use Nmap's TCP Connect Scan ("-sT") against the target machine to identify open ports
+Use Nmap's TCP SYN Scan ("-sS") against the target machine to identify open ports using SYN packets
+Use Nmap's Service Detection ("-sV") against the target machine to identify the services running on open ports
+Use Nmap's OS Detection ("-A") against the target machine to identify the operating system running on the target system
+Use Nmap's scan option to scan all TCP ports ("-p-") against the target machine to identify all open ports
+3.1. Validation
+For each of the scans performed using the attacker machine, ensure that Nmap successfully discovers port 22 (SSH) and port 80 (HTTP) as "open" on the target machine
+
+
+# $\color{#FF69B4}{\text{HERE IS MY WORK AND THOUGHT PROCESS}}$
+

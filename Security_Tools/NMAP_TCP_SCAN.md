@@ -44,6 +44,21 @@ Port 22 is SSH
 
 NMAP IS THE SECURITY TOOL USED TO SCAN THE TARGET 
 
+apache2	The Apache HTTP web server.
+openssh-server	The server software that accepts SSH connections
+nmap	The network scanning tool.
+systemctl — A Linux command used to manage system services.
+ss - socket stats
+Flag	Meaning
+ss	Socket Statistics
+-t	Display TCP sockets.
+-u	Display UDP sockets.
+-l	Display listening sockets.
+-n	Display numerical IP addresses and port numbers.
+-p	Display the processes associated with sockets.
+
+I typed sudo ss -tulnp, thats very interesting!
+
 Adapter 1 — NAT	Allows the VM to access the internet to download software.
 Adapter 2 — Host-only	Allows communication between your lab machines and physical host.
 

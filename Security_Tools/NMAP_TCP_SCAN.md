@@ -26,3 +26,22 @@ For each of the scans performed using the attacker machine, ensure that Nmap suc
 
 # $\color{#FF69B4}{\text{HERE IS MY WORK AND THOUGHT PROCESS}}$
 
+Determine this:
+What ports are open? 
+What services are running? 
+What OS is this system using? 
+How different scanning techniques discover info.
+
+How I will create this lab: 
+
+Two Linux virtual machines, one representing the attacker, one representing the target/victim. 
+
+Attacker VM will use NMAP
+TARGET VM (REMEMBER THIS) We will use Port 22 and 80 | SSH, 
+# $\color{#FF69B4}{\text{APACHE}}$
+Remember, Port 80 is HTTP
+Port 22 is SSH
+
+
+
+

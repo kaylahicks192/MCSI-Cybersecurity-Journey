@@ -66,7 +66,7 @@ Adapter 2 — Host-only	Allows communication between your lab machines and physi
 -br	Displays information in a brief format
 
 
-### $\color Interface	Purpose{#FF69B4}{\text{Target machine prep done}}$
+# $\color{#FF69B4}{\text{Target machine prep done}}$
 
 lo	Loopback interface.
 enp0s3	Often the first virtual Ethernet adapter (NAT).

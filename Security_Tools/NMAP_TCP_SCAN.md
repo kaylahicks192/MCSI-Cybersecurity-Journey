@@ -1,3 +1,4 @@
+
 # $\color{#FF69B4}{\text{NMAP TCP SCAN TEST}}$
 
 Hello! This is my first official documentation of one of the Mosse Cybersecurity Institute's activities. Although it is not my first time completing these assignments, I've made a Github dedicated to these projects to prove my participation. 
@@ -74,5 +75,20 @@ enp0s8	Often the second virtual Ethernet adapter (host-only).
 /24	The first 24 bits identify the network; equivalent to subnet mask 255.255.255.0.
 UP	The network interface is enabled.
 
+
+remember: lab target ip addr
+192.168.56.101
+
+_____________________________________________________________________________________________________________________________________________________________
+
+Network Connectivity Validation
+
+Before performing the TCP port scans, I verified connectivity between my Ubuntu attacker machine and my Kali Linux target machine using the following command:
+
+ping -c 4 192.168.56.101
+
+The target machine successfully responded to all four ICMP echo requests, resulting in 0% packet loss and an average round-trip time of 4.274 milliseconds.
+
+These results confirmed that the two virtual machines could successfully communicate over the host-only network, allowing me to proceed with the Nmap scanning portion of the exercise.
 
 
